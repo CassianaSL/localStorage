@@ -19,8 +19,6 @@ btnAdd.addEventListener('click', (e) => {
     json.cidade = cidade.value;
     json.curriculo = curriculo.value;
 
-    console.dir(json);
-
     let storage = localStorage.getItem("curriculos");
     
     storage.length === 0 ? storage = [] : storage = storage.split(',');
