@@ -18,6 +18,7 @@ self.addEventListener("install", function (event) {
         './sw.js',
         './..',
         './../index.html',
+        './../manifest.json',
         './../todo',
         './../todo/index.html',
         './../todo/js',
